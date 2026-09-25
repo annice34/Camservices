@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CamServices — Trouvez & proposez des services</title>
+  <meta name="description" content="CamServices met en relation clients et prestataires au Cameroun. Publiez gratuitement vos services.">
+  <style>:root{--ink:#10231c;--green:#087443;--lime:#c9f27a;--cream:#f7f6ef;--white:#fff;--line:#dfe5df;--muted:#637069}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:var(--cream);line-height:1.5}.topbar{height:74px;background:#fff;display:flex;align-items:center;gap:28px;padding:0 max(20px,5vw);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}.brand{font-weight:900;font-size:20px;color:var(--ink);text-decoration:none;margin-right:auto}.brand span{display:inline-grid;place-items:center;background:var(--green);color:#fff;border-radius:10px;width:34px;height:34px;margin-right:7px;font-size:12px}nav{display:flex;gap:24px}nav a{color:var(--ink);text-decoration:none;font-weight:650}.btn{background:var(--green);color:#fff;border:0;border-radius:12px;padding:13px 19px;font-weight:800;cursor:pointer}.btn:hover{filter:brightness(.93)}.btn-small{padding:10px 14px;text-decoration:none}.hero{padding:80px max(20px,7vw);display:grid;grid-template-columns:1.5fr .7fr;gap:50px;align-items:center;background:linear-gradient(135deg,#eef9e9,#f7f6ef)}.eyebrow{color:var(--green);font-weight:900;text-transform:uppercase;letter-spacing:.12em;font-size:12px}.hero h1{font-size:clamp(42px,6vw,72px);line-height:1.02;margin:14px 0 20px;max-width:850px}.hero h1 em{color:var(--green);font-style:normal}.lead{font-size:19px;color:var(--muted);max-width:690px}.searchbar{background:#fff;padding:9px;border:1px solid var(--line);border-radius:15px;display:grid;grid-template-columns:1fr 180px auto;gap:8px;max-width:760px;margin-top:28px;box-shadow:0 15px 35px #12320d12}.searchbar input,.searchbar select{border:0;background:#f4f6f2;border-radius:10px;padding:13px;min-width:0}.hero-card{background:var(--ink);color:#fff;border-radius:25px;padding:28px;box-shadow:20px 20px 0 var(--lime)}.stat{padding:22px 0;border-bottom:1px solid #ffffff25}.stat:last-child{border:0}.stat strong{display:block;font-size:30px;color:var(--lime)}.stat span{color:#cbd5cf}.section{padding:80px max(20px,7vw)}.section h2{font-size:38px;margin:8px 0 30px}.section-head{display:flex;align-items:end;justify-content:space-between}.section-head #resultCount{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;min-height:240px}.tag{display:inline-block;background:#eef7e9;color:var(--green);font-size:12px;font-weight:800;padding:5px 9px;border-radius:20px;width:max-content}.card h3{margin:15px 0 5px;font-size:22px}.meta{color:var(--muted);font-size:14px}.price{font-weight:900;margin-top:auto;padding-top:18px}.card .contact{margin-top:14px;text-align:center;text-decoration:none}.muted{background:#edf1ea}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.steps article,.money-grid>div{background:#fff;border-radius:18px;padding:26px;border:1px solid var(--line)}.steps b{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--lime);font-size:18px}.form-wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px;align-items:start}.form-wrap form{background:#fff;padding:28px;border-radius:20px;border:1px solid var(--line);display:grid;gap:14px}label{font-weight:750;display:grid;gap:7px}input,select,textarea{font:inherit;padding:12px;border:1px solid var(--line);border-radius:10px;background:#fbfcfa}textarea{resize:vertical}.notice{font-size:12px;color:var(--muted)}.earning{background:var(--ink);color:#fff}.money-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.money-grid>div{color:var(--ink)}footer{padding:45px max(20px,7vw);background:#0b1712;color:#dce7e0;display:flex;justify-content:space-between;gap:40px}footer .brand{color:#fff}footer p{max-width:500px}.empty{padding:35px;background:#fff;border-radius:16px;color:var(--muted);grid-column:1/-1}@media(max-width:800px){nav{display:none}.topbar{gap:10px}.hero{grid-template-columns:1fr;padding-top:55px}.hero-card{box-shadow:none}.searchbar{grid-template-columns:1fr}.grid,.steps,.money-grid,.form-wrap{grid-template-columns:1fr}.section{padding:55px 20px}.hero h1{font-size:44px}footer{flex-direction:column}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span>CS</span> CamServices</a>
+  <nav><a href="#services">Services</a><a href="#comment">Comment ça marche</a><a href="#publier">Publier</a></nav>
+  <a class="btn btn-small" href="#publier">Publier gratuitement</a>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">🇨🇲 Simple • Local • Gratuit</p>
+    <h1>Trouvez quelqu’un pour votre besoin. <em>Ou trouvez votre prochain client.</em></h1>
+    <p class="lead">Une plateforme simple pour découvrir et proposer des services au Cameroun : cuisine, coiffure, réparation, design, livraison et bien plus.</p>
+    <div class="searchbar">
+      <input id="search" type="search" placeholder="Ex. coiffeuse, plombier, gâteau..." aria-label="Rechercher un service">
+      <select id="category"><option value="">Toutes les catégories</option><option>Cuisine</option><option>Beauté</option><option>Réparation</option><option>Digital</option><option>Livraison</option><option>Maison</option></select>
+      <button class="btn" onclick="filterServices()">Rechercher</button>
+    </div>
+  </div>
+  <div class="hero-card">
+    <div class="stat"><strong>100%</strong><span>Publication gratuite</span></div>
+    <div class="stat"><strong>🇨🇲</strong><span>Pour le Cameroun</span></div>
+    <div class="stat"><strong>WhatsApp</strong><span>Contact direct</span></div>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <div class="section-head"><div><p class="eyebrow">Découvrez</p><h2>Services populaires</h2></div><span id="resultCount"></span></div>
+  <div id="serviceGrid" class="grid"></div>
+</section>
+
+<section id="comment" class="section muted">
+  <p class="eyebrow">En 3 étapes</p><h2>Comment ça marche ?</h2>
+  <div class="steps">
+    <article><b>1</b><h3>Publiez</h3><p>Présentez votre service, votre ville et votre tarif indicatif.</p></article>
+    <article><b>2</b><h3>Recevez des contacts</h3><p>Les clients vous contactent directement par WhatsApp.</p></article>
+    <article><b>3</b><h3>Développez votre activité</h3><p>Ajoutez des photos et demandez des avis à vos clients.</p></article>
+  </div>
+</section>
+
+<section id="publier" class="section">
+  <div class="form-wrap">
+    <div><p class="eyebrow">Votre annonce</p><h2>Publier gratuitement</h2><p>Commencez sans capital. Le formulaire ci-dessous ajoute l'annonce à ce site dans votre navigateur.</p></div>
+    <form id="listingForm">
+      <label>Nom / activité<input name="name" required placeholder="Ex. Alice Cuisine"></label>
+      <label>Service<input name="title" required placeholder="Ex. Gâteaux sur commande"></label>
+      <label>Catégorie<select name="category" required><option value="">Choisir</option><option>Cuisine</option><option>Beauté</option><option>Réparation</option><option>Digital</option><option>Livraison</option><option>Maison</option></select></label>
+      <label>Ville<input name="city" required placeholder="Ex. Yaoundé"></label>
+      <label>Prix indicatif<input name="price" placeholder="Ex. À partir de 5 000 FCFA"></label>
+      <label>WhatsApp<input name="phone" required placeholder="Ex. 2376XXXXXXXX"></label>
+      <label>Description<textarea name="description" rows="4" required placeholder="Décrivez votre service..."></textarea></label>
+      <button class="btn" type="submit">Ajouter mon annonce</button>
+      <p class="notice">Démo gratuite : les annonces sont enregistrées localement sur l'appareil. Pour un vrai site public avec comptes, base de données et paiement, il faudra connecter un backend.</p>
+    </form>
+  </div>
+</section>
+
+<section class="section earning">
+  <div><p class="eyebrow">Monétisation</p><h2>Comment le propriétaire du site peut gagner de l'argent</h2></div>
+  <div class="money-grid">
+    <div><b>⭐ Mise en avant</b><p>Faire payer une petite somme pour placer une annonce en tête.</p></div>
+    <div><b>📣 Publicité</b><p>Ajouter des espaces publicitaires quand le trafic devient suffisant.</p></div>
+    <div><b>🤝 Affiliation</b><p>Recommander des outils ou services avec des liens affiliés autorisés.</p></div>
+    <div><b>💼 Pros</b><p>Créer un abonnement optionnel pour les professionnels.</p></div>
+  </div>
+</section>
+</main>
+
+<footer><div><a class="brand" href="#"><span>CS</span> CamServices</a><p>Connecter les talents et les clients au Cameroun.</p></div><div><b>Important</b><p>CamServices n'est pas une banque et ne garantit aucun revenu. Vérifiez les prestataires avant toute transaction.</p></div></footer>
+<script>const defaultServices=[
+ {name:"Merveille Cuisine",title:"Gâteaux & plats sur commande",category:"Cuisine",city:"Yaoundé",price:"À partir de 5 000 FCFA",phone:"237600000001",description:"Gâteaux d'anniversaire, plats et commandes pour événements."},
+ {name:"Beauty Grace",title:"Coiffure à domicile",category:"Beauté",city:"Douala",price:"À partir de 3 000 FCFA",phone:"237600000002",description:"Coiffure et mise en beauté à domicile sur rendez-vous."},
+ {name:"Tech Express",title:"Réparation de téléphones",category:"Réparation",city:"Yaoundé",price:"Devis gratuit",phone:"237600000003",description:"Diagnostic, réparation et remplacement de pièces selon disponibilité."},
+ {name:"Design Pro",title:"Création de logos & affiches",category:"Digital",city:"Bafoussam",price:"À partir de 5 000 FCFA",phone:"237600000004",description:"Visuels pour entreprises, événements et réseaux sociaux."},
+ {name:"Rapide Livraison",title:"Livraison en ville",category:"Livraison",city:"Douala",price:"À partir de 1 500 FCFA",phone:"237600000005",description:"Petites livraisons et courses en ville."},
+ {name:"Maison Clean",title:"Nettoyage à domicile",category:"Maison",city:"Yaoundé",price:"Sur devis",phone:"237600000006",description:"Nettoyage de maisons, bureaux et petits locaux."}
+];
+
+function getServices(){return JSON.parse(localStorage.getItem("camservices")||"null")||defaultServices}
+function saveServices(x){localStorage.setItem("camservices",JSON.stringify(x))}
+function wa(phone,title){return "https://wa.me/"+phone.replace(/\D/g,"")+"?text="+encodeURIComponent("Bonjour, je suis intéressé(e) par votre service : "+title)}
+function render(items=getServices()){
+ const grid=document.getElementById("serviceGrid"); document.getElementById("resultCount").textContent=items.length+" annonce(s)";
+ if(!items.length){grid.innerHTML='<div class="empty">Aucun service trouvé. Essayez un autre mot-clé ou une autre catégorie.</div>';return}
+ grid.innerHTML=items.map(s=>`<article class="card"><span class="tag">${escapeHtml(s.category)}</span><h3>${escapeHtml(s.title)}</h3><div class="meta"><b>${escapeHtml(s.name)}</b> · ${escapeHtml(s.city)}</div><p>${escapeHtml(s.description)}</p><div class="price">${escapeHtml(s.price||"Prix à discuter")}</div><a class="btn contact" target="_blank" rel="noopener" href="${wa(s.phone,s.title)}">Contacter sur WhatsApp</a></article>`).join("")
+}
+function escapeHtml(v){return String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
+function filterServices(){
+ const q=document.getElementById("search").value.toLowerCase().trim(), c=document.getElementById("category").value;
+ render(getServices().filter(s=>(!q||[s.name,s.title,s.city,s.category,s.description].join(" ").toLowerCase().includes(q))&&(!c||s.category===c)))
+}
+document.getElementById("listingForm").addEventListener("submit",e=>{
+ e.preventDefault(); const data=Object.fromEntries(new FormData(e.target).entries()); const all=getServices(); all.unshift(data); saveServices(all); e.target.reset(); render(); location.hash="services"; alert("Annonce ajoutée sur cet appareil. Pour la rendre publique à tous, connectez le site à une base de données."); 
+});
+document.getElementById("search").addEventListener("input",filterServices);
+document.getElementById("category").addEventListener("change",filterServices);
+render();
+</script>
+</body>
+</html>
